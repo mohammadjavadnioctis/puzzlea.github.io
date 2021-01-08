@@ -52,7 +52,7 @@
             // with chaining - can also assign to a variable for later access
             var imageObj = [];
             var piecesArrayObj = [];
-            frame.loadAssets(["brave.jpg"], "assets/");
+            frame.loadAssets(["gs.png"], "assets/");
 
             var label = new Label({
                text:"CLICK",
@@ -70,7 +70,7 @@
             frame.on("complete", function() {
 
 
-                imageObj = frame.asset("brave.jpg").clone();
+                imageObj = frame.asset("gs.png").clone();
                 imageObj.addTo(con);
                 imageObj.alpha = 0.2;
 
